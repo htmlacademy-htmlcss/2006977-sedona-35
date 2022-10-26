@@ -41,7 +41,7 @@ body {
 .navigation-list {
     margin: 0;
     padding: 0;
-    width: 440px;
+    width: 700px;
 }
 .navigation-user {
     max-width: 310px;
@@ -247,22 +247,22 @@ body {
     margin: 0 auto;
 }
 .main-footer-social {
-    width: 142px;
-    margin-right: 41px;
+    width: 242px;
+    margin-right: 136px;
 }
 .main-footer-social-list {
     margin: 0;
     padding: 0;
 }
 .main-footer-contacts {
-    width: 720px;
+    width: 331px;
 }
 .main-footer-contacts-phone {
-    display: block;
+    display: inline-block;
 }
 .created-by-logo {
     display: block;
-    margin-left: 41px;
+    margin-left: 236px;
 }
 .sorting-container {
     background-image: url("../images/background-filter.jpg");
@@ -336,6 +336,7 @@ body {
 }
 
 .hotels-search {
+    width: 438px;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
@@ -344,7 +345,7 @@ body {
 }
 .select-control {
     width: 292px;
-    margin-left: 192px;
+    margin-left: 92px;
 }
 .hotel-card-title {
     font-weight: 700;
