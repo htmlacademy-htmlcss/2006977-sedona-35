@@ -123,23 +123,18 @@ body {
     width: 592px;
 }
 
-.features-list {
-    margin: 0;
-    padding: 0;
-}
-.advantages-list {
-    margin: 0;
-    padding: 0;
-
-}
 .advantages-img {
     display: block;
 }
 .advantages-wrapper {
     display: flex;
     width: 1200px;
+   flex-wrap: wrap;
 }
 .advantages-img-devils {
+    display: flex;
+}
+.advantages-img-bridge {
     order: -1;
     display: block;
 }
@@ -147,7 +142,7 @@ body {
 .background-blue,
 .features-item {
     width: 400px;
-    height: 384px;
+    min-height: 384px;
 }
 .features-list {
     display: flex;
