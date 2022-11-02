@@ -62,6 +62,7 @@ body {
     display: flex;
     max-width: 310px;
     margin: 0;
+    padding: 0;
     margin-left: auto;
     list-style-type: none;
 }
@@ -327,8 +328,9 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
-.main-footer-social-item {
-    display: block;
+
+.social-button {
+    display: inline-block;
     min-width: 47px;
     min-height: 40px;
 }
@@ -383,6 +385,7 @@ body {
 
 .breadcrumbs {
     display: flex;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -461,6 +464,9 @@ body {
     padding: 0;
     list-style-type: none;
     margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: 340px 340px 340px;
+    gap: 20px;
 }
 
 .hotel-list-wrapper {
@@ -469,22 +475,50 @@ body {
     padding-right: 70px;
 }
 
+.hotel-card-wrapper {
+    padding: 20px;
+}
+
+.hotel-card-inner-wrapper {
+    display: grid;
+    grid-template-columns: 140px 140px;
+    column-gap: 20px;
+    row-gap: 16px;
+}
+
+.hotel-list {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 80px;
+}
 
 .hotel-card-title {
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
     color: #000000;
+    margin: 0;
+    margin-bottom: 16px;
 }
 .hotel-card-link {
     text-decoration: none;
+
 }
+.hotel-card-image {
+    margin-bottom: 16px;
+}
+
 .hotel-card-subtitle,
 .hotel-card-price {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     color: #333333;
+    margin: 0;
+}
+
+.hotel-card-price {
+    margin-left: auto;
 }
 
 .hotel-card-button {
@@ -498,18 +532,28 @@ body {
 }
 .hotel-description {
     background-color: #756157;
+    padding: 8px 26px;
 }
 .favourites {
     background-color: #82B3D3;
+    padding-top: 8px;
+
 }
 .favourites-active {
     background-color: #7DB54F;
+    padding-top: 8px;
 }
 .rank {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     color: #333333;
+    margin: 0;
+    background-color:#F2F2F2;
+    text-align: center;
+    padding-top: 8px;
+    text-transform: uppercase;
+
 }
 
 .pagination {
@@ -534,7 +578,11 @@ body {
     width: 60px;
     height: 60px;
     padding: 11px 24px 12px 23px;
+}
+
+.pagination-item {
     margin-right: 8px;
+    box-sizing: border-box;
 }
 
 .two-digit {
