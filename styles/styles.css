@@ -1172,6 +1172,7 @@ line-height: 24px;
   text-transform: uppercase;
   margin: 0;
   margin-right: 200px;
+  margin-top: 4px;
   padding: 0;
 
 }
@@ -1570,7 +1571,7 @@ z-index: 1;
 }
 
 .field::placeholder {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
@@ -1586,7 +1587,7 @@ z-index: 1;
 }
 
 .check-in-date {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
@@ -1595,7 +1596,7 @@ z-index: 1;
 }
 
 .check-out-date {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
@@ -1604,21 +1605,21 @@ z-index: 1;
 }
 
 .error-message {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
   color: #FF5757;
-  margin-left: 145px;
+  margin-left: 155px;
 }
 
 .message {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
   color: #333333;
-  margin-left: 145px;
+  margin-left: 155px;
 }
 
 .field {
@@ -1747,7 +1748,7 @@ z-index: 1;
 }
 
 .field {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
@@ -1755,19 +1756,21 @@ z-index: 1;
 }
 
 .modal-input {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
   text-align: center;
+  box-sizing: border-box;
+  padding-top: 5px;
 }
 
 .calendar-check-in {
   position: absolute;
   height: 20px;
   width: 20px;
-  right: 34px;
-  top: 17px;
+  right: 20px;
+  top: 16px;
   background-image: url("../images/icon-calendar.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -1781,8 +1784,8 @@ z-index: 1;
   position: absolute;
   height: 20px;
   width: 20px;
-  right: 34px;
-  top: 17px;
+  right: 20px;
+  top: 16px;
   background-image: url("../images/icon-calendar.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -1819,13 +1822,13 @@ z-index: 1;
   color: #FFFFFF;
   display: block;
   width: 216px;
-  padding-top: 15px;
-  padding-bottom: 18px;
+  padding-top: 20px;
+  padding-bottom: 23px;
   padding-left: 22px;
   padding-right: 18px;
   position: absolute;
-  top: 70%;
-  left: 67%;
+  top: 409px;
+  left: 478px;
   transform: translateX(-50%);
   z-index: 1;
   display: none;
@@ -1874,8 +1877,8 @@ display: block;
   text-align: center;
   top: 10px;
   right: 3px;
-
 }
+
 .close-icon {
   display: block;
   min-width: 14px;
